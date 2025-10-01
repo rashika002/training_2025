@@ -483,14 +483,30 @@ border-radius: 8px;
   gap: 10px;     
             
 }
+.collage .column-1{
+  margin-top: 60px;
+}
+.collage .column-4{
+  margin-top: 60px;
+}
 .collage img {
   width: 100%;
   height: auto;
   border-radius: 10px;
   object-fit: cover;
- 
   transition: transform 0.3s;
 }
+#first-image { height: 200px; width: 100%; }
+#second-image { height: 150px; width: 100%; }
+#third-image { height: 180px; width: 100%; }
+#fourth-image { height: 120px; width: 100%; }
+#fifth-image { height: 220px; width: 100%; }
+#sixth-image { height: 140px; width: 100%; }
+#seventh-image { height: 200px; width: 100%; }
+#eighth-image { height: 160px; width: 100%; }
+#ninth-image { height: 190px; width: 100%; }
+#tenth-image { height: 130px; width: 100%; }
+
 .talk-us-content-right h2 {
   font-size: 36px;
   font-weight: 800;
@@ -506,7 +522,7 @@ border-radius: 8px;
 }
 
 .talk-us-content-right a {
-  /* display: inline-block; */
+  
   font-weight: 600;
   
 }
