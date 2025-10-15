@@ -1,0 +1,391 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+section img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+  /* border-radius: 10px;  */
+  transition: transform 0.3s ease;
+}
+
+/* frame-1 styling */
+.content-box {
+  max-width: 600px;   
+  margin: 0 auto;     
+}
+
+.content-box h1 {
+  font-size: 3rem;    
+  font-weight: 700;
+  line-height: 1.2;  
+}
+
+.content-box p {
+  font-size: 1.1rem;
+  color: #555;        
+}
+
+.content-box button {
+  padding: 10px 25px;
+  font-size: 1rem;
+}
+
+.frame-1 img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+  /* border-radius: 10px;  */
+  transition: transform 0.3s ease;
+}
+
+/* .section img:hover {
+  transform: scale(1.05);
+} */
+
+
+/* frame-2 styling */
+
+.frame-2 .center-img {
+  height: 350px;        
+  width: 100%;
+  object-fit: cover;    
+  position: relative;
+  top: -30px;          
+  border-radius: 10px;
+}
+
+.frame-2 .right-img {
+  height: 350px;        
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  top: 20px;           
+  border-radius: 10px;
+}
+
+/* frame-3 styling */
+.frame-3 img {
+  width: 100%;           
+  height: auto;          
+  max-height: 450px;     
+  object-fit: cover;  
+  display: block;
+}
+
+/* frame-4 styling */
+.frame-4 .left-img {
+  width: 100%;
+  height: 600px;           
+  object-fit: cover;       
+  display: block;
+}
+
+/* frame-5 styling */
+.frame-5 h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+.frame-5 h1 .line-1,
+.frame-5 h1 .line-2 {
+  display: block; 
+}
+
+.frame-5 .project-img {
+  width: 100%;
+  height: 220px;       
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.frame-5 .project-img:hover {
+  transform: scale(1.05);
+}
+
+.frame-5 p {
+  font-size: 1rem;
+  color: grey;
+}
+/* Frame 6 Styling  */
+.frame-6 {
+  background-color: #f9f9f9;
+  min-height: 600px;
+}
+
+.frame-6 .left-content h2 {
+  color: #222;
+  font-size: 50px;
+}
+
+.frame-6 .left-content p {
+  color: #555;
+  font-size: 24px;
+  line-height: 1.5
+  ;
+}
+
+.frame-6 .left-content .btn {
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.frame-6 .left-content .btn:hover {
+  transform: translateY(-2px);
+}
+
+
+.frame-6 .icon-box-row {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.frame-6 .icon-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.frame-6 .icon-box .icon {
+  font-size: 1.2rem;
+  color: #000;
+  margin-bottom: 8px;
+  display: block;
+
+}
+
+.frame-6 .icon-box p {
+  font-size: 0.9rem;
+  color: #333;
+  margin: 0;
+}
+
+.frame-6 .right-content img {
+  max-width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+
+/* frame-7 styling */
+.frame-7 h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+.frame-7 h1 .line-1,
+.frame-7 h1 .line-2 {
+  display: block; 
+}
+.frame-7 .frame-img{
+  width: 265px;            
+  height: 70%;  
+ max-width: 100%;
+ margin-bottom: 10px;
+ border-radius: 15px;
+}
+.overlay-text {
+  top: 25%;        
+}
+
+/* frame-8 styling */
+.frame-8 {
+  background: #AB2706; 
+  min-height: 700px;    
+    
+}
+.frame-8 .col-md-8.position-relative {
+  min-height: 500px;
+}
+.frame-8 .yellow-circle {
+  width: 450px;
+  height: 450px;
+  background-color:#E5B94B;
+  border-radius: 50%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-70%);
+  z-index: 1;
+  position: absolute;
+}
+.frame-8 .pattern1 {
+  width: 150px;
+    height: auto;
+    bottom: -29px;
+    left: 45%;
+    transform: translateX(16%);
+    z-index: 2;
+
+}
+
+.frame-8 .pattern2 {
+  width: 150px;
+    height: auto;
+    left: 50%;
+    transform: translateX(-190%);
+    z-index: 3;
+}
+
+.frame-8 .face-img {
+     width: 400px;
+    height: auto;
+    bottom: -91px;
+    left: 36%;
+    transform: translateX(-50%);
+    z-index: 4;
+}
+.yellow-btn {
+  background-color: #FFD700; 
+  padding: 10px 25px;       
+  border-radius: 5px;      
+
+}
+.frame-8 h1{
+  font-size: 45px;
+}
+.yellow-btn:hover {
+  background-color: #e6c200; 
+}
+
+/* frame-9 styling */
+.frame-9 {
+      background-color: #97A3A3;
+      min-height: 655px;
+      position: relative;
+      /* padding: 10px 0; */
+    }
+
+    .frame-9 .left-col {
+      position: relative;
+    }
+
+/* .frame-9 .left-col .top-content {
+  position: absolute;    
+  top: 0;           
+  right: 0;           
+  z-index: 3;            
+  padding: 20px;        
+  
+} */
+
+
+    .frame-9 .left-col .top-content h1,
+    .frame-9 .left-col .top-content p {
+      color: #000; 
+    }
+
+    .frame-9 .left-bottom-img {
+     width: 80%;
+    height: 145%;
+    left: -65px;
+    position: absolute;
+    z-index: 1;
+    }
+
+    .frame-9 .right-col {
+      position: relative;
+    }
+
+    .frame-9 .right-col .position-relative {
+      position: relative;
+    }
+
+  .frame-9 .right-top-img {
+  width: 75%;          
+  height: auto;         
+  display: block;
+  position: relative;
+  z-index: 1;
+  top: -47px; 
+  object-fit: cover;   
+}
+
+    .frame-9 .transparent-box {
+      background-color: rgba(255, 255, 255, 0.2); 
+      border-radius: 90px;
+    padding: 30px;
+    width: 150%;
+    height: 70%;
+    top: 126%;
+    left: -45%;
+     position: absolute;
+     z-index: 2;
+    }
+
+    .frame-9 .transparent-box .number {
+      display: block;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: black;
+    }
+
+    .frame-9 .transparent-box hr {
+      border-top: 2px solid black;
+      width: 40px;
+      margin: 5px ;
+      
+    }
+
+    .frame-9 .transparent-box p {
+      font-size: 0.9rem;
+      color: black;
+    }
+
+    /*Frame 10 Styling*/
+.frame-10 {
+  background-color: #2F2F2F;
+  min-height: 700px;
+  position: relative;
+}
+
+.frame-10 .left-content h2 {
+  margin-bottom: 10px;
+}
+
+.frame-10 .left-content .heading-1 {
+   color: lightpink; 
+   font-size: 65px;
+  }  
+.frame-10 .left-content .heading-2 { 
+  color: #457B9D;
+  font-size: 65px;
+ }  
+.frame-10 .left-content .heading-3 {
+   color: #2A9D8F; 
+   font-size: 65px;
+  }  
+
+.frame-10 .left-content p {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.frame-10 .left-content button {
+  padding: 10px 25px;
+  border-radius: 30px;
+}
+
+.frame-10 .right-content {
+  padding: 20px;
+}
+
+.frame-10 .image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 15px;
+}
+
+.frame-10 .image-grid img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.frame-10 .image-grid img:hover {
+  transform: scale(1.05);
+}
+
