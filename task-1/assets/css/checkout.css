@@ -1,0 +1,16 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-size: 50px;
+}
+.logout-btn{
+    right: -10%;
+    top:0;
+}
+.logout-btn i{
+    padding: 50%;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+}
